@@ -1,0 +1,10 @@
+SET foreign_key_checks = 0;
+load data local infile 'district.tbl' into table district fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'client.tbl' into table client fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'account.tbl' into table account fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'disposition.tbl' into table disposition fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'order.tbl' into table `order` fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'loan.tbl' into table loan fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'trans.tbl' into table trans fields terminated by '\t' lines terminated by '\n' ;
+load data local infile 'card.tbl' into table card fields terminated by '\t' lines terminated by '\n' ;
+SET foreign_key_checks = 1;
