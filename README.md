@@ -3,7 +3,7 @@ VFDS
 
 Demo
 
-Usage: java -jar -Xmx64g vfds_demo.jar -db financial -sampledb samplefinancial -u root -p password -per 0.5
+Usage example: java -jar -Xmx64g vfds_demo.jar -db financial -sampledb samplefinancial -u root -p password -per 0.5
 
 More information on the parameters can be found by running: java -jar vfds_demo.jar -h
 
